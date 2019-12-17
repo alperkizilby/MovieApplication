@@ -12,7 +12,7 @@ export default class AuthLoading extends Component {
 	render() {
     return (
       <View style={{ flex:1, justifyContent:'center', alignItems:'center' }}>
-				<Text>Loading...</Text>
+				<Text>Yükleniyor...</Text>
 			</View>
     );
   }
