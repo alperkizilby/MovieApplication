@@ -21,7 +21,7 @@ export default class SigninForm extends Component {
 			  alert(data.message);
 				return false;
 			}
-
+//
 			this.props.AuthStore.saveToken(data.token);
 		}catch (e) {
 			bag.setSubmitting(false);
